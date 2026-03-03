@@ -29,7 +29,7 @@ sdk = MoonfunSDK(private_key=os.getenv('PRIVATE_KEY'))
 result = sdk.create_meme(prompt="A happy cat celebrating")
 
 print(f"Token: {result['token_address']}")
-print(f"View: https://moonn.fun/detail?address={result['token_address']}")
+print(f"View: https://moonfun.ai//detail?address={result['token_address']}")
 ```
 
 ## Core Features
@@ -88,7 +88,7 @@ sdk.get_token_balance(token_address: str)   # Returns token balance (wei)
 
 SDK comes pre-configured with hosted services:
 - Image API: Hosted service for AI generation
-- Platform: https://moonn.fun
+- Platform: https://moonfun.ai/
 - BSC RPC: Public BSC dataseed node
 
 No additional configuration needed for basic usage.
@@ -99,7 +99,7 @@ No additional configuration needed for basic usage.
 sdk = MoonfunSDK(
     private_key="0x...",
     image_api_url="https://custom-api.com",     # Optional
-    platform_url="https://moonn.fun",           # Default
+    platform_url="https://moonfun.ai/",           # Default
     rpc_url="https://bsc-dataseed.bnbchain.org" # Default
 )
 ```
@@ -198,7 +198,7 @@ The SDK uses these services:
 2. **MoonnFun Platform**
    - Public token launchpad
    - Metadata and image storage
-   - URL: https://moonn.fun
+   - URL: https://moonfun.ai/
 
 3. **BSC Network**
    - Public blockchain
@@ -255,7 +255,7 @@ pip install -e .
 
 ## Resources
 
-- Platform: https://moonn.fun
+- Platform: https://moonfun.ai/
 - BSC Explorer: https://bscscan.com
 - Documentation: See README.md
 - Security Guide: See SECURITY.md

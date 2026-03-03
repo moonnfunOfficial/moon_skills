@@ -191,7 +191,7 @@ if balance < Web3.to_wei(0.011, 'ether'):
 
 ### MoonnFun Platform
 
-**Endpoint**: `https://moonn.fun`
+**Endpoint**: `https://moonfun.ai/`
 
 **Security Measures:**
 1. Session-based authentication with signed login

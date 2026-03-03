@@ -46,7 +46,7 @@ grep -r "self.auth.account.key" python/moonfun_sdk/
 
 Used services:
 - Image API: `http://moonfun.site` (documented, can be self-hosted)
-- Platform: `https://moonn.fun` (public platform)
+- Platform: `https://moonfun.ai/` (public platform)
 - BSC RPC: `https://bsc-dataseed.bnbchain.org` (public node)
 
 **What is transmitted**:
@@ -178,7 +178,7 @@ pip install -e .
    - Payload: `{prompt, address, timestamp, signature}`
    - Response: `{image_base64, meme_title, enhanced_prompt}`
 
-2. **Platform API** (`https://moonn.fun`)
+2. **Platform API** (`https://moonfun.ai/`)
    - POST `/bsc/api/v1/user/login` (authentication)
    - POST `/bsc/api/v1/token/image/upload` (image upload)
    - POST `/bsc/api/v1/token/create` (metadata)

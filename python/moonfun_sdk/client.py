@@ -44,7 +44,7 @@ class MoonfunSDK:
         Args:
             private_key: Ethereum private key (with or without 0x prefix)
             image_api_url: URL of secured image generation API (default: internal server)
-            platform_url: MoonnFun platform URL (default: https://moonn.fun)
+            platform_url: MoonnFun platform URL (default: https://moonfun.ai/)
             chain: Blockchain name (default: "bsc")
             rpc_url: BSC RPC endpoint (default: public BSC RPC)
         
@@ -109,7 +109,7 @@ class MoonfunSDK:
         Example:
             >>> result = sdk.create_meme("A shocked cat looking at code")
             >>> print(f"Token created: {result['token_address']}")
-            >>> print(f"View at: https://moonn.fun/bsc/token/{result['token_address']}")
+            >>> print(f"View at: https://moonfun.ai//bsc/token/{result['token_address']}")
         """
         print("🎨 Step 1/6: Generating Meme image...")
         
@@ -172,7 +172,7 @@ class MoonfunSDK:
         
         print(f"\n🎉 Meme created successfully!")
         print(f"   Token: {token_address}")
-        print(f"   View: https://moonn.fun/detail?address={token_address}")
+        print(f"   View: https://moonfun.ai//detail?address={token_address}")
         
         return {
             'success': True,

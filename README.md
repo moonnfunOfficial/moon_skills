@@ -132,7 +132,7 @@ mitmproxy
 
 The SDK uses these defaults:
 - Image API: `http://moonfun.site` (hosted service)
-- Platform: `https://moonn.fun`
+- Platform: `https://moonfun.ai/`
 - BSC RPC: `https://bsc-dataseed.bnbchain.org`
 
 ### Custom Configuration
@@ -143,7 +143,7 @@ Users can override defaults:
 sdk = MoonfunSDK(
     private_key="0x...",
     image_api_url="https://your-api.com",  # Custom image API
-    platform_url="https://moonn.fun",      # Default platform
+    platform_url="https://moonfun.ai/",      # Default platform
     rpc_url="https://your-rpc.com"         # Custom RPC
 )
 ```
@@ -181,7 +181,7 @@ The SDK integrates with these services:
 
 **Self-hosting**: Users can deploy their own image API instance
 
-### 2. MoonnFun Platform (`https://moonn.fun`)
+### 2. MoonnFun Platform (`https://moonfun.ai/`)
 
 **Purpose**: Token metadata storage and indexing
 
@@ -278,7 +278,7 @@ MIT License - See `python/LICENSE` for details
 
 ## Support and Resources
 
-- **Platform**: https://moonn.fun
+- **Platform**: https://moonfun.ai/
 - **BSC Explorer**: https://bscscan.com
 - **Documentation**: `python/README.md`
 - **Security**: `python/SECURITY.md`

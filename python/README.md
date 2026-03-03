@@ -34,7 +34,7 @@ sdk = MoonfunSDK(private_key="0x...")
 result = sdk.create_meme(prompt="A happy cat celebrating")
 
 print(f"Token Address: {result['token_address']}")
-print(f"View: https://moonn.fun/detail?address={result['token_address']}")
+print(f"View: https://moonfun.ai//detail?address={result['token_address']}")
 ```
 
 ## Configuration
@@ -51,7 +51,7 @@ You can override default settings:
 sdk = MoonfunSDK(
     private_key="0x...",
     image_api_url="https://your-custom-api.com",  # Optional: custom image API
-    platform_url="https://moonn.fun",              # Default platform
+    platform_url="https://moonfun.ai/",              # Default platform
     rpc_url="https://bsc-dataseed.bnbchain.org"    # Default BSC RPC
 )
 ```
@@ -83,7 +83,7 @@ sdk = MoonfunSDK(
 MoonfunSDK(
     private_key: str,
     image_api_url: str = "http://moonfun.site",      # Hosted service
-    platform_url: str = "https://moonn.fun",
+    platform_url: str = "https://moonfun.ai/",
     chain: str = "bsc",
     rpc_url: str = "https://bsc-dataseed.bnbchain.org"
 )
@@ -217,7 +217,7 @@ The SDK uses the following services:
    - Timestamp-bound requests (anti-replay)
    - You can deploy your own instance
 
-2. **MoonnFun Platform** (`https://moonn.fun`):
+2. **MoonnFun Platform** (`https://moonfun.ai/`):
    - Public token launchpad
    - Handles metadata storage
    - Open source smart contracts
@@ -271,7 +271,7 @@ result = sdk.create_meme(
 
 token_address = result['token_address']
 print(f"\n✅ Token Created: {token_address}")
-print(f"View: https://moonn.fun/detail?address={token_address}")
+print(f"View: https://moonfun.ai//detail?address={token_address}")
 
 # Buy tokens (experimental)
 sdk.buy_token(
@@ -402,7 +402,7 @@ MoonfunSDK
 
 ## Resources
 
-- **Platform**: https://moonn.fun
+- **Platform**: https://moonfun.ai/
 - **BSC Explorer**: https://bscscan.com
 - **Documentation**: See `/examples` directory
 - **Security**: See `SECURITY.md`

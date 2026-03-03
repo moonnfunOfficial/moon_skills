@@ -25,7 +25,7 @@ class PlatformClient:
         Initialize platform client
         
         Args:
-            base_url: Platform base URL (e.g., https://moonn.fun)
+            base_url: Platform base URL (e.g., https://moonfun.ai/)
             chain: Blockchain name ("bsc", "sei", "base")
             auth_manager: Authentication manager instance
         """

@@ -10,7 +10,7 @@ CHAIN_ID = 56
 DEFAULT_RPC_URL = "https://bsc-dataseed.bnbchain.org"
 
 # MoonnFun Platform Configuration
-PLATFORM_BASE_URL = "https://moonn.fun"
+PLATFORM_BASE_URL = "https://moonfun.ai/"
 DEFAULT_CHAIN = "bsc"
 
 # Token Creation Fee
