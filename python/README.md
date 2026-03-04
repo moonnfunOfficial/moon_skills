@@ -3,6 +3,18 @@
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
+## 🚀 Quick Install
+
+**Install directly via pip - no need to download source code:**
+
+```bash
+pip install moonfun-sdk
+```
+
+After installation, you can use all features immediately. If you want to view the source code or do custom development, continue reading below for the complete source code package.
+
+---
+
 Professional Python SDK for creating and trading Meme tokens on BSC (Binance Smart Chain) with AI-powered image generation.
 
 ## Features

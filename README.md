@@ -1,5 +1,17 @@
 # MoonfunSDK - Open Source Release
 
+## 🚀 Quick Install
+
+**Install directly via pip - no need to download source code:**
+
+```bash
+pip install moonfun-sdk
+```
+
+After installation, you can use all features immediately. If you want to view the source code or do custom development, continue reading below for the complete source code package.
+
+---
+
 This package contains the complete source code for MoonfunSDK, a professional Python SDK for creating and trading Meme tokens on Binance Smart Chain.
 
 ## What's Included
